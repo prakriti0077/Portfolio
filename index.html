@@ -1,0 +1,176 @@
+﻿<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Prakriti | Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="ambient"></div>
+    <header class="nav">
+      <div class="logo">Prakriti</div>
+      <nav class="nav__links">
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <button class="nav__cta" onclick="document.getElementById('contact').scrollIntoView({behavior:'smooth'})">Let’s Talk</button>
+    </header>
+
+    <main>
+      <section class="hero" id="top">
+        <div class="hero__content">
+          <p class="eyebrow">Full Stack Developer</p>
+          <h1>Building elegant, reliable web apps that feel effortless.</h1>
+          <p class="lead">
+            I’m Prakriti, a full‑stack developer focused on clean UX, reliable APIs, and fast delivery.
+            I love turning ideas into polished products.
+          </p>
+          <div class="hero__actions">
+            <a class="btn" href="#projects">View Projects</a>
+            <a class="btn btn--ghost" href="#contact">Contact Me</a>
+          </div>
+          <div class="hero__meta">
+            <span>Based in India</span>
+            <span>Open to internships & junior roles</span>
+          </div>
+        </div>
+        <div class="hero__card">
+          <div class="stat">
+            <span class="stat__value">6+</span>
+            <span class="stat__label">Projects Delivered</span>
+          </div>
+          <div class="stat">
+            <span class="stat__value">3</span>
+            <span class="stat__label">Core Tech Stacks</span>
+          </div>
+          <div class="stat">
+            <span class="stat__value">2026</span>
+            <span class="stat__label">Graduation Year</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="projects">
+        <div class="section__header">
+          <h2>Projects</h2>
+          <p>Selected work that blends product thinking with solid engineering.</p>
+        </div>
+        <div class="grid">
+          <article class="card">
+            <h3>Track_Grid</h3>
+            <p>Full‑stack task management app with CRUD, filters, and live stats.</p>
+            <div class="tags">
+              <span>Node.js</span><span>Express</span><span>MongoDB</span><span>HTML/CSS/JS</span>
+            </div>
+            <a class="link" href="https://trackgrid-production.up.railway.app" target="_blank" rel="noreferrer">Live Demo</a>
+            <a class="link" href="https://github.com/prakriti0077/Track_Grid" target="_blank" rel="noreferrer">GitHub</a>
+          </article>
+          <article class="card">
+            <h3>Portfolio Website</h3>
+            <p>Modern responsive personal portfolio with clean layout and bold visuals.</p>
+            <div class="tags">
+              <span>HTML</span><span>CSS</span><span>JavaScript</span>
+            </div>
+            <span class="muted">In progress</span>
+          </article>
+          <article class="card">
+            <h3>API Playground</h3>
+            <p>Collection of REST APIs with authentication and testing.</p>
+            <div class="tags">
+              <span>Node.js</span><span>Postman</span><span>JWT</span>
+            </div>
+            <span class="muted">In progress</span>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="skills">
+        <div class="section__header">
+          <h2>Skills</h2>
+          <p>A balanced toolkit across frontend, backend, and deployment.</p>
+        </div>
+        <div class="skills">
+          <div>
+            <h4>Frontend</h4>
+            <ul>
+              <li>HTML5, CSS3, JavaScript (ES6+)</li>
+              <li>Responsive design, UI systems</li>
+              <li>Accessibility & performance basics</li>
+            </ul>
+          </div>
+          <div>
+            <h4>Backend</h4>
+            <ul>
+              <li>Node.js, Express</li>
+              <li>REST APIs, CRUD workflows</li>
+              <li>MongoDB, Mongoose</li>
+            </ul>
+          </div>
+          <div>
+            <h4>Tools</h4>
+            <ul>
+              <li>Git/GitHub, Postman</li>
+              <li>Railway, Render</li>
+              <li>VS Code, Figma basics</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="experience">
+        <div class="section__header">
+          <h2>Experience</h2>
+          <p>Hands‑on work with full‑stack assignments and real‑world workflows.</p>
+        </div>
+        <div class="timeline">
+          <div class="timeline__item">
+            <h4>Full Stack Development Intern (Assessment Project)</h4>
+            <p class="muted">2026</p>
+            <p>Built a full‑stack Task Management system with MongoDB, Express, and a responsive UI.</p>
+          </div>
+          <div class="timeline__item">
+            <h4>Freelance / Personal Projects</h4>
+            <p class="muted">2024 – Present</p>
+            <p>Designed and deployed multiple web apps focusing on clean UX and reliable backend logic.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="education">
+        <div class="section__header">
+          <h2>Education</h2>
+          <p>Formal foundation paired with consistent hands‑on building.</p>
+        </div>
+        <div class="timeline">
+          <div class="timeline__item">
+            <h4>Bachelor’s Degree (Computer Science)</h4>
+            <p class="muted">Expected 2026</p>
+            <p>Focused on software development, databases, and system design.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="contact">
+        <div class="section__header">
+          <h2>Contact</h2>
+          <p>Have a role or project in mind? Let’s connect.</p>
+        </div>
+        <div class="contact">
+          <a class="btn" href="mailto:prakriti@example.com">Email Me</a>
+          <a class="btn btn--ghost" href="https://github.com/prakriti0077" target="_blank" rel="noreferrer">GitHub</a>
+          <a class="btn btn--ghost" href="https://www.linkedin.com" target="_blank" rel="noreferrer">LinkedIn</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <span>© 2026 Prakriti. Built with care.</span>
+      <a href="#top">Back to top</a>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>
